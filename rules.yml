@@ -1,0 +1,8 @@
+groups:
+- name: demo
+  rules:
+  - alert: HighRequestProcessingTime
+    expr: demo_request_processing_time > 0.5
+    for: 1m
+    annotations:
+      summary: High request processing times
