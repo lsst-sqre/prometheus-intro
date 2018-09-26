@@ -4,7 +4,7 @@ import time
 
 # Create a metric to track the time spent processing a request.
 REQUEST_TIME = Gauge("request_processing_time",
-                       "Time spent processing a request.")
+                     "Time spent processing a request.")
 
 
 @REQUEST_TIME.time()
