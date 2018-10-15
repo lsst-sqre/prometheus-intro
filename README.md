@@ -27,3 +27,8 @@ jupyter notebook
 (You should now see your kernel in the Jupyter notebook menu: `Kernel -> Change kernel` and be able so switch to it.)
 
 Open the `prometheus-intro.ipynb` notebook.
+
+4. Install docker
+
+The notebook requires `docker-compose` to run the Prometheus server locally.
+See for instance how to [Install Docker for Mac](https://docs.docker.com/docker-for-mac/install/).
